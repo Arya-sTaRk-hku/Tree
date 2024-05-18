@@ -1,0 +1,27 @@
+
+
+
+/*
+
+        1
+          \
+            2
+          /    \
+         3       4
+          \
+           5
+  
+  */
+
+
+
+
+    root = new TreeNode(1);
+    TreeNode* r2 = new TreeNode(2);
+    TreeNode* r3 = new TreeNode(3);
+    TreeNode* r4 = new TreeNode(4);
+    TreeNode* r5 = new TreeNode(5);
+    root->right = r2;
+    r2->left = r3;
+    r2->right = r4;
+    r3->right = r5;
